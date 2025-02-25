@@ -12,7 +12,7 @@ A API fornece uma interface para enviar prompts ao modelo Mistral e receber resp
 - Docker Compose
 - .NET 7.0 ou superior
 - Visual Studio 2022 ou VS Code com extensões C#
--    ```
+   ```
 
 ## Passos para Baixar e Rodar o Ollama e o Modelo Mistral
 
