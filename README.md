@@ -17,13 +17,13 @@ A API fornece uma interface para enviar prompts ao modelo Mistral e receber resp
 ## Passos para Baixar e Rodar o Ollama e o Modelo Mistral
 
 1. Execute o comando abaixo para baixar e rodar a imagem do Ollama em um container Docker
-$ docker run -d --name ollama -p 11434:11434 ollama/ollama
+- $ docker run -d --name ollama -p 11434:11434 ollama/ollama
 
 2. Baixar o Modelo Mistral
-$ winpty docker exec -it ollama ollama pull mistral
+- $ winpty docker exec -it ollama ollama pull mistral
 
 3. Rodar o Modelo Mistral
-$ docker exec -it ollama ollama run mistral
+- $ docker exec -it ollama ollama run mistral
 
 **Exemplo de requisição:**
 
